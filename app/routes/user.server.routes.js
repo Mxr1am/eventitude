@@ -1,4 +1,8 @@
-const users = require("../controllers/user.server.controllers")
+const users = require("../controllers/user.server.controller")
+const auth = require('../middleware/authentication.middleware')
+
+console.log(users); 
+
 
 module.exports = function(app){
     app.route("/users")
@@ -8,5 +12,5 @@ module.exports = function(app){
     .post(users.login);
 
     app.route("/logout")
-    .post(users.logout);
+    .post(auth.isAuthenticated, users.logout);
 }
