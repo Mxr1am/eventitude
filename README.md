@@ -17,6 +17,4 @@ Steps to download and run:
 1. To re-run the tests, you can first wipe the DB by running `npm run wipe`. The tests assume a fresh database each time.
 documentation is located on Swagger [here](https://app.swaggerhub.com/apis/MMU-SE/eventitude/1.0.0/)
 
-If you have any issues, come see me in the labs.
 
-A
