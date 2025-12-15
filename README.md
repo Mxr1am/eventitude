@@ -12,6 +12,9 @@ Steps to download and run:
 6. Once the dependencies have installed, run the server using `npm run dev`. You will see a message saying that the server is running on port 3333.
 7. In a **separate terminal window** navigate to the projects root directory and run `npm run test` to run the tests. The tests will mostly fail, but that is because we have not yet written any code.
 
+DEMO VIDEO!!: 
+https://github.com/Mxr1am/eventitude/releases/download/eventitude/Screen.Recording.2025-01-19.200624.mp4
+
 
 **Things to remember:**
 1. To re-run the tests, you can first wipe the DB by running `npm run wipe`. The tests assume a fresh database each time.
